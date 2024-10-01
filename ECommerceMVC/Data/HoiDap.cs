@@ -14,4 +14,5 @@ public partial class HoiDap
     public DateOnly NgayDua { get; set; }
 
     public string MaNv { get; set; } = null!;
+    public virtual NhanVien MaNvNavigation { get; set; } = null!;
 }
